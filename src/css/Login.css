@@ -1,0 +1,28 @@
+
+.form-body{
+    /* background-image: url(../images/cloud01.jpg); */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+}
+
+.text-muted {
+    font-size: 15px;
+}
+.text-Name {
+    font-size: 30px;
+}
+
+.alertPop {
+    text-align : center;
+    left: 25%;
+    width : 50%;
+    border-radius: 40px;
+
+}

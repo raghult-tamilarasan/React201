@@ -1,0 +1,62 @@
+.seatMap-body{
+  background-color: white;
+  width: 540px;
+  margin: 15%;
+}
+
+h1 {
+    color: rgb(255, 1, 1);
+  text-align: center;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+}
+
+.grid td {
+  width: 20px;
+  height: 40px;
+  padding: 27px 27px;
+  border: 1.5px solid rgb(197, 73, 73);
+  text-align: center;
+  align-content: center;
+  float: left;
+  margin: 8px;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: rgb(255, 0, 0);
+  color: #fff;
+  display: inline-block;
+}
+
+
+.reserved::after {
+  content: ''
+}
+
+.available::after {
+  content: ''
+}
+
+.available {
+  color: #333;
+}
+
+.na {
+  background : red;
+}
+
+.selected {
+  background : rgb(84, 236, 84);
+}
+
+li {
+  list-style: none;
+}

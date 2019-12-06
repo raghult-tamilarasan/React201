@@ -1,0 +1,81 @@
+.flightDetails-body {
+    align-items: stretch
+}
+
+.col1 {
+    float: left;
+    color: rgb(80, 30, 30);
+    font-size: x-large;
+}
+
+.col2 {
+    float: left;
+    margin-left: 30px;
+    font-size: x-large;
+    color: rgb(38, 0, 255);
+}
+
+.col3 {
+    float: left;
+    margin-left: 50px;
+    color: rgb(80, 30, 30);
+    font-size: x-large;
+}
+
+.col4 {
+    float: left;
+    margin-left: 30px;
+    font-size: x-large;
+    color: rgb(38, 0, 255);
+}
+
+.col5 {
+    float: left;
+    margin-left: 50px;
+    color: rgb(80, 30, 30);
+    font-size: x-large;
+}
+
+.col6 {
+    float: left;
+    margin-left: 30px;
+    font-size: x-large;
+    color: rgb(38, 0, 255);
+}
+
+button {
+    float: right;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: -5%;
+    bottom: 25%;
+    margin: auto;
+}
+
+.flight-details-body,
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+    flex-flow: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px;
+}
